@@ -1,4 +1,36 @@
 html{
 
     background-image: url('../image/backgroundprincipal.jpg');
+    font-family: 'Segoe UI', sans-serif;
+    box-sizing: border-box;
+}
+h2{
+
+    font-weight: lighter;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #515f67;
+    
+}
+#souligner{
+
+    text-decoration: underline;
+    color: #515f67;
+    font-size: 2px;
+}
+#portfolio{
+
+    background-image: url("../image/fondblanc.jpg");
+}
+.container{
+
+    text-align: center;
+}
+.container1{
+
+    text-align: center;
+}
+.float-left{
+
+    
 }
