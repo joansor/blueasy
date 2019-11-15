@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+#twitter {
+  width: 1920px;
+  height: 200px;
+  background-color: rgb(75, 202, 255);
+  padding-left: 375px;
+  padding-top: 40px;
+  padding-right: 375px;
+}
+
+.tweet {
+  width: 1180px;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: white;
+}
+
+#whois {
+  width: 1920px;
+  padding-top: 100px;
+  padding-left: 375px;
+  padding-right: 375px;
+  height: 505px;
+  background-color: rgb(81, 95, 103);
+  background-image: url(https://raw.githubusercontent.com/joansor/blueasy/master/image/whois.jpg);
+  background-position: center;
+}
+
+.content {
+  width: 1175px;
+}
+.box {
+  width: 375px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+p {
+    color: white;
+}
