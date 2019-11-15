@@ -1,0 +1,134 @@
+* {
+    background-image: url("../image/bg.png");
+    font-family: "Segoe UI", sans-serif;
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+  }
+  h2 {
+    font-weight: lighter;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #515f67;
+    margin: 80px 0px;
+    padding: 0px;
+  }
+  /*
+  #souligner {
+    text-decoration: underline;
+    color: #515f67;
+    font-size: 2px;
+  }
+  #portfolio {
+    background-image: url("../image/fondblanc.jpg");
+  }
+  .container {
+    text-align: center;
+    display: block;
+    margin: 194px auto;
+    padding: 0px;
+  }
+  .container1 {
+    text-align: center;
+  }
+  */
+  a {
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    float: right;
+  }
+  
+  li {
+    color: #515f67; 
+    background: white;
+    display: block;
+    float: left;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  #active {
+    border-color: #4bcaff;
+    color: #4bcaff;
+  }
+/* Style pour le menu */
+
+.menu-area{
+    left:0;
+    position:absolute;
+    top:0;
+    width:100%;
+}
+.column{width:1170px; margin:auto }
+.header-area{
+    background: rgba(0,0,0,0.5) none repeat; 
+   
+    left:o;
+    position: absolute;
+    top:0;
+    width: 100%
+}
+.slider-area > img {
+    width: 100%;
+}
+.logo{
+    float: left;
+}
+.menu{
+    float: right;
+}
+.menu ul li {
+    display:inline-block;
+  
+    }
+    .menu ul li a{
+        border:3px solid #4bcaff;
+        display: block;
+        text-transform: uppercase;
+        font-weight:700 ;
+        padding:10px 20px;
+        color:#fff;
+        text-decoration: none;
+
+    }
+  .menu li {
+    float:right;
+    margin:1px;
+    padding:0;
+    background-color:transparent;
+    }
+    
+   .menu li a {
+    display:block;
+    
+    color:white;
+    text-decoration:none;
+    padding:10px;
+  margin-right: 1px;
+    
+    }
+   .menu li a:hover {
+    color:#4bcaff;
+    background-color:white ;
+    }
+    .menu ul li ul {
+      display:none;
+      }
+      .menu ul li:hover ul {
+        display:block;
+        }
+      .menu li:hover ul li {
+        float:none;
+        }
+        
+        .menu li ul {
+          position:absolute;
+          }
