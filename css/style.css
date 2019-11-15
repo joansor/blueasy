@@ -3,30 +3,56 @@ html {
   font-family: "Segoe UI", sans-serif;
   box-sizing: border-box;
 }
+nav{
+
+  
+}
 h2 {
   font-weight: lighter;
   font-size: 30px;
   text-transform: uppercase;
   color: #515f67;
-  margin: 80px 0px;
-  padding: 0px;
+  
+  
 }
 #souligner {
   text-decoration: underline;
   color: #515f67;
   font-size: 2px;
 }
-#portfolio {
+.portfolio1{
+
+  
+}
+  #portfolio {
   background-image: url("../image/fondblanc.jpg");
+  width: 100%;
+  height: 847px;
+  padding: 77px 0;
+}
+.container-first{
+
+  margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  
 }
 .container {
+  
+  display: flex;
   text-align: center;
-  display: block;
-  margin: 194px auto;
-  padding: 0px;
+  padding-left: 375px;
+  padding-right: 375px;
+
+  
 }
 .container1 {
-  text-align: center;
+
+display: flex;
+text-align: center;
+padding-left: 375px;
+padding-right: 375px;
 }
 
 a {
@@ -36,8 +62,10 @@ a {
 ul {
   list-style: none;
   margin: 0;
-  padding-left: 0;
   float: right;
+  margin-right: 116px;
+  
+
 }
 
 li {
@@ -51,8 +79,50 @@ li {
   font-size: 14px;
   text-transform: uppercase;
   font-weight: bold;
+  
+
 }
 #active {
   border-color: #4bcaff;
+  border: solid;
   color: #4bcaff;
+  padding: 24px 58px;
+}
+a{
+    color: #515f67;
+}
+a:hover{
+
+    color: #4bcaff;
+}
+}
+.float-left{
+  
+  margin: ;
+
+  
+}
+.float-right{
+  float: right;
+  margin-right: 0px;
+  margin-left: 30px;
+  margin-bottom: 32px;
+  padding: 0px;
+  border: 0px;
+ 
+}
+.float-mid{
+
+float: left;
+margin-left: 30px;
+padding: 0px;
+border: 0px;
+
+}
+.float-mid1{
+
+  float: left;
+  margin-left: 30px;
+  padding: 0px;
+  border: 0px;
 }
