@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Segoe UI";
+  src: url(/fonts/Segoe\ UI.ttf);
+}
+
 #twitter {
   width: 1920px;
   height: 305px;
@@ -20,6 +25,9 @@ h1 {
   color: white;
   margin-bottom: 0%;
   margin-top: 0%;
+  font-family:'Segoe UI';
+  font-weight:normal;
+  font-size: 30px;
 }
 
 #whois {
@@ -45,19 +53,20 @@ h1 {
 p {
   color: white;
   line-height: 22px;
+  font-family:'Segoe UI';
+  padding-right: 30px;
 }
 
 .jumbotron-icon .fa-3 {
-  font-size: 4em;
+  font-size: 3em;
   margin-right: 15px;
   border-width: 3px;
   border-style: solid;
   border-color: white;
+  color: white;
 }
 
-.fa {
-  display: inline-block;
-}
+
 
 #tweet {
   line-height: 40px;
@@ -69,4 +78,8 @@ hr {
   max-width: 50px;
   margin-left: 0;
   border: 2px solid;
+}
+
+.fa-2 {
+  padding-left: 995px;
 }
