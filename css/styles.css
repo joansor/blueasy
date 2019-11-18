@@ -7,7 +7,10 @@ html{
 body{
 
     margin: 0px;
+  
 }
+
+
 .titre {
     font-weight: lighter;
     font-size: 30px;
@@ -38,7 +41,7 @@ left: 375px;
 
   #section-portfolio{
 
-    background-color: white;
+   background-color: white;
     width: 100%;
     
   }
@@ -134,10 +137,6 @@ width: 100%;
   font-size: 30px;
 }
 
-#arriere{
-
-  background-color: #515f67;
-}
 p{
 
   color: white;
@@ -162,11 +161,26 @@ p{
   margin-right: 0px;
   
 }
-#section-video .btn-default
+a.button
 {
   color: #353f46;
-  border: solid;
-  width: 136px;
-   height: 40px; 
+  border: solid; 
+  position: relative;
+  top: 40px;
+  border-top-width: 3px;
+  padding-bottom: 10px;
+  /* padding-left: 68px; */
+  padding-right: 40px;
+  padding-top: 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+  /* text-align: center; */
+  padding-left: 40px;
 
+}
+div.col-md-6-video{
+
+  display: flex;
+  width: 561px;
+  height: 314px;
 }
