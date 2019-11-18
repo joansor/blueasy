@@ -37,7 +37,7 @@ h1 {
   padding-right: 375px;
   height: 505px;
   background-color: rgb(81, 95, 103);
-  background-image: url(https://raw.githubusercontent.com/joansor/blueasy/master/image/whois.jpg);
+  background-image: url(/image/whois.jpg);
   background-position: center;
 }
 
