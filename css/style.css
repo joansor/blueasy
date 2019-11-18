@@ -9,7 +9,6 @@
   padding-left: 375px;
   padding-top: 80px;
   padding-right: 375px;
-  
 }
 
 .tweet {
@@ -60,14 +59,14 @@ p {
   display: inline-block;
 }
 
-#tweet
-{
+#tweet {
   line-height: 40px;
 }
 
 hr {
   margin-top: 0%;
   color: white;
-  max-width: 50px; margin-left:0;
+  max-width: 50px;
+  margin-left: 0;
   border: 2px solid;
 }
