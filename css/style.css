@@ -1,18 +1,23 @@
 * {
-    background-image: url("../image/bg.png");
+
     font-family: "Segoe UI", sans-serif;
     box-sizing: border-box;
     padding:0;
     margin:0;
+   
   }
   h2 {
     font-weight: lighter;
     font-size: 30px;
     text-transform: uppercase;
-    color: #515f67;
+    color: white;
     margin: 80px 0px;
     padding: 0px;
+  
   }
+ 
+	
+  
   /*
   #souligner {
     text-decoration: underline;
@@ -32,52 +37,83 @@
     text-align: center;
   }
   */
+
   a {
     text-decoration: none;
   }
-  
-  ul {
-    list-style: none;
-    margin: 0;
-    padding-left: 0;
-    float: right;
+  .text{
+      position:absolute;
+      text-align: center;
+      top:249px;
+      transform: translateY(-50%)   ;
+      -webkit-transform: translateY(-50%)   ;
+      -moz-transform: translateY(-50%)   ;
+      -ms-transform: translateY(-50%)   ;
+      -o-transform: translateY(-50%)   ;
+      width:100%;
+}
+ 
+  .text h2 span{
+    background:rgba(0,0,0,.5) none repeat scroll 0 0;
+    line-height: 60px;
+    margin:2px 0;
+ 
   }
-  
-  li {
-    color: #515f67; 
-    background: white;
-    display: block;
-    float: left;
-    padding: 1rem;
-    position: relative;
-    text-decoration: none;
-    font-size: 14px;
+  .services{background:#4bcaff;} 
+  .contenu {
+    width: 970px;}
+    .bloc1{
+      margin-right: 10px;
+      margin-left: 10px;
+  }
+ h3.titre {
+    color: #fff;
+    font-size: 2em;
+    font-family: 'caviar_dreamsregular';
     text-transform: uppercase;
-    font-weight: bold;
+    margin: 0 15px;
+ }
+  .service-title h2{
+    color: #FFF;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 400;
+    
+  
+
   }
-  #active {
-    border-color: #4bcaff;
-    color: #4bcaff;
-  }
+  .services-info h3{
+    color: #FFF;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 5% 0;
+}
+.service-info p{
+
+color: #fff;
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+  
 /* Style pour le menu */
 
-.menu-area{
-    left:0;
-    position:absolute;
-    top:0;
-    width:100%;
-}
+
 .column{width:1170px; margin:auto }
-.header-area{
-    background: rgba(0,0,0,0.5) none repeat; 
-   
-    left:o;
-    position: absolute;
-    top:0;
-    width: 100%
-}
+
 .slider-area > img {
     width: 100%;
+    
+}
+.menu-area{
+
+  background:rgba(0,0,0,.5) none repeat scroll 0 0;
+   left:0;
+   position:absolute;
+   top:0;
+   width:100%;
+
 }
 .logo{
     float: left;
@@ -87,28 +123,36 @@
 }
 .menu ul li {
     display:inline-block;
-  
+   
     }
     .menu ul li a{
-        border:3px solid #4bcaff;
+       
         display: block;
         text-transform: uppercase;
         font-weight:700 ;
         padding:10px 20px;
         color:#fff;
         text-decoration: none;
+     
 
     }
   .menu li {
-    float:right;
     margin:1px;
-    padding:0;
-    background-color:transparent;
+   padding:0;
+    background: transparent;
+    display: block;
+    float: left;
+    position: relative;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+ 
+
     }
     
    .menu li a {
     display:block;
-    
     color:white;
     text-decoration:none;
     padding:10px;
