@@ -56,13 +56,14 @@
     margin:2px 0;
  
   }
+  /*
   .services{background:#4bcaff;
   width:100%;
   height:404px;
   } 
   .contenu{
   width:1170px;
-  margin-left:375px;
+
   
   }
   .niv1 h3{
@@ -147,7 +148,7 @@
   .col-4{
     margin-top:37px;
     display:flex; /*mettre les élément l'un coté de l'autre*/
-  }
+  /*}
   .col1{
     width:270px;
   }
@@ -168,28 +169,40 @@
 /* Style pour le menu */
 
 
+.slider-area{
+
+ 
+  background-image: url("../image/slider.jpg");
+  width: 1920px;
+  height:800px;
+  
+}
+.entete{
+  background-image: url("../image/bg.png");
+  top:0;
+  position:absolute;
+   width:1920px;
+   height:150px;
+  
+}
 .slider-area > img {
-  width: 100%;
+  width: 1920px;
+  height:800px;
  
 
 }
 
-.menu-area{
-  background-image: url("../image/bg.png");
-  top:0;
-   position:absolute;
-   width:100%;
-   height:150px;
-}
-.column{width:1170px; margin:auto;}
+
+
 .logo{
     float: left;
     margin-top:57px;
- 
+ margin-left:375px;
 }
 .menu{
     float: right;
     margin-top:57px; 
+    margin-right:375px;
   
 }
 .menu ul li {
@@ -247,3 +260,113 @@
         .menu li ul {
           position:absolute;
           }
+          /* section service*/
+          .services {
+            background:#4bcaff;
+            margin:auto;
+            width:1920px;
+            height:404px;
+           position:relative;
+           margin-top:0;
+            } 
+            .contenu{
+              width:1170px;
+              margin-left:375px;
+              
+              }
+              .niv1 h3{
+                color: #FFF;
+                font-size: 30px;
+                text-transform: uppercase;
+                font-weight: 400;
+                padding-top:80px;
+              }
+              .titre1 h4{
+                color: #FFF;
+                font-size: 24px;
+                text-transform: uppercase;
+                font-weight: 400;
+                padding-top:17px;
+              }
+              .text1 h5{
+                color: #fff;
+                font-size: 12px;
+                line-height: 1.5em;
+                font-weight: bold;
+                padding-top:30px;
+                font-family: "Myriad Pro", regular;
+                
+              }
+              .titre2 h4{
+                color: #FFF;
+                font-size: 24px;
+                text-transform: uppercase;
+                font-weight: 400;
+                padding-top:17px;
+              }
+              
+              .text2 h5{
+                color: #fff;
+                font-size: 12px;
+                line-height: 1.5em;
+                font-weight: bold;
+                padding-top:30px;
+                font-family: "Myriad Pro", regular;
+                
+              }
+            
+              .titre3 h4{
+                color: #FFF;
+                font-size: 24px;
+                text-transform: uppercase;
+                font-weight: 400;
+                padding-top:17px;
+              }
+              
+              .text3 h5{
+                color: #fff;
+                font-size: 12px;
+                line-height: 1.5em;
+                font-weight: bold;
+                padding-top:30px;
+                font-family: "Myriad Pro", regular;
+                
+              }
+            
+            
+              .titre4 h4{
+                color: #FFF;
+                font-size: 24px;
+                text-transform: uppercase;
+                font-weight: 400;
+                padding-top:17px;
+              }
+              
+              .text4 h5{
+                color: #fff;
+                font-size: 12px;
+                line-height: 1.5em;
+                font-weight: bold;
+                padding-top:30px;
+                font-family: "Myriad Pro", regular;
+                
+              }
+            
+            
+              .col-4{
+                margin-top:37px;
+                display:flex; /*mettre les élément l'un coté de l'autre*/
+              }
+              .col1{
+                width:270px;
+              }
+              .col2{
+                width:270px;
+              }
+            
+              .col3{
+                width:270px;
+              }
+              .col4{
+                width:270px;
+              }
