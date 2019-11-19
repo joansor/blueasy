@@ -258,10 +258,10 @@ div.col-md-6-video{
 
 /**section-testimonial**/
 
-/**section .testimonial{
+section{
 
-  
-
+  position: relative;
+  top: 811px;
 }
 .container2
 {
@@ -273,7 +273,7 @@ height: 360px;
 div{
 
 }
-h2{
+#titre-testi{
 
   text-transform: uppercase;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -297,7 +297,7 @@ div.para-testi{
 
   margin-top: 30px;
 }
-p{
+#para-testi{
   margin-left: 375px;
   font-weight: lighter;
   font-size: 28px;
@@ -308,6 +308,7 @@ p{
   color: #4bcaff;
   text-transform: capitalize;
   font-size: 14px;
+  margin-left: 375px;
 
 }
 .guillemets{
