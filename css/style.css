@@ -7,6 +7,7 @@
   src: url(/fonts/Segoe\UI.ttf);
 }
 
+/*   twitter    */
 #twitter {
   width: 1920px;
   height: 305px;
@@ -16,12 +17,7 @@
   padding-right: 375px;
 }
 
-.tweet {
-  width: 1180px;
-  
-}
-
-h1 {
+#twitter > .tweet > h1 {
   text-transform: uppercase;
   color: white;
   margin-bottom: 0%;
@@ -30,6 +26,28 @@ h1 {
   font-weight: normal;
   font-size: 30px;
 }
+
+#twitter > .tweet > hr {
+  margin-top: 0%;
+  color: white;
+  max-width: 50px;
+  margin-left: 0;
+  border: 2px solid;
+}
+
+.tweet {
+  width: 1180px;
+  color: white;
+  line-height: 22px;
+  font-family: "Segoe UI";
+  padding-right: 30px;
+}
+
+#tweet {
+  line-height: 50px;
+}
+
+/*  who is    */
 
 #whois {
   width: 1920px;
@@ -42,16 +60,32 @@ h1 {
   background-position: center;
 }
 
-.content {
+#whois > .content > h1 {
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 0%;
+  margin-top: 0%;
+  font-family: "Segoe UI";
+  font-weight: normal;
+  font-size: 30px;
+}
+
+#whois > .content > hr {
+  margin-top: 0%;
+  color: white;
+  max-width: 50px;
+  margin-left: 0;
+  border: 2px solid;
+}
+
+#whois > .content {
   width: 1200px;
 }
-.box {
+
+#whois > .content > .box {
   width: 590px;
   display: inline-block;
   vertical-align: top;
-}
-
-p {
   color: white;
   line-height: 22px;
   font-family: "Segoe UI";
@@ -70,18 +104,6 @@ p {
   padding-left: 15px;
   padding-top: 15px;
   padding-bottom: 15px;
-}
-
-#tweet {
-  line-height: 50px;
-}
-
-hr {
-  margin-top: 0%;
-  color: white;
-  max-width: 50px;
-  margin-left: 0;
-  border: 2px solid;
 }
 
 .fa-2 {
