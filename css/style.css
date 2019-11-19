@@ -25,6 +25,7 @@
   font-family: "Segoe UI";
   font-weight: normal;
   font-size: 30px;
+  line-height: 50px;
 }
 
 #twitter > .tweet > hr {
@@ -68,6 +69,7 @@
   font-family: "Segoe UI";
   font-weight: normal;
   font-size: 30px;
+  line-height: 50px;
 }
 
 #whois > .content > hr {
@@ -107,5 +109,5 @@
 }
 
 .fa-2 {
-  padding-left: 995px;
+  padding-left: 980px;
 }
