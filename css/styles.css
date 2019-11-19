@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter&display=swap');
+
 html{
-    background-image: url('../image/backgroundprincipal.jpg');
+    /**background-image: url('../image/backgroundprincipal.jpg');**/
+    background-color: #515f67 ;
     font-family: "Segoe UI", sans-serif;
     box-sizing: border-box;
     width: 1920px;
@@ -203,3 +206,71 @@ div.col-md-6-video{
   width: 561px;
   height: 314px;
 }
+/**section-video**/
+
+/**section-testimonial**/
+
+/**section .testimonial{
+
+  
+
+}
+.container2
+{
+position: relative;
+background-color: white;
+height: 360px;
+
+}
+div{
+
+}
+h2{
+
+  text-transform: uppercase;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+  margin-left: 375px;
+  margin-top : 0px;
+  margin-bottom : 0px;
+  color: #515f67;
+  padding-top: 80px;
+}
+hr.title-deco-line3{
+
+  width: 50px;
+  margin-left: 375px;
+  border-top-width: 2px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+div.para-testi{
+
+  margin-top: 30px;
+}
+p{
+  margin-left: 375px;
+  font-weight: lighter;
+  font-size: 28px;
+  color: #515f67;
+}
+#signature{
+
+  color: #4bcaff;
+  text-transform: capitalize;
+  font-size: 14px;
+
+}
+.guillemets{
+
+font-weight: bold;
+font-size: 72px;
+font-family: 'Bitter', serif;
+float: right;
+margin-right: 375px;
+margin-top: 0px;
+
+}
+**/
+
