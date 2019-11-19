@@ -2,7 +2,6 @@
 
 html{
     /**background-image: url('../image/backgroundprincipal.jpg');**/
-    background-color: #515f67 ;
     font-family: "Segoe UI", sans-serif;
     box-sizing: border-box;
     width: 1920px;
@@ -99,28 +98,40 @@ li{
 
 .portfolio-grid{
 
-height: 846px;
+height: 844px;
 width: 100%;
+padding-top: 80px;
+    padding-bottom: 80px;
 
 }
 .row{
 
   text-align: center;
   display: flex;
-  position: absolute;
+  /**position: absolute;**/
   top: 194px;
   left: 375px;
-  height: 570px;
+  height: 270px;
   right: 375px;
+  width: 1170px;
+  margin-right: 375px;
+  margin-left: 375px;
+  margin-top: 190px;
+  
 }
 .row1{
 
-  position: absolute;
+  /**position: absolute;**/
     top: 476px;
     display: flex;
     text-align: center;
     left: 375px;
     right: 375px;
+    height: 270px;
+    width: 1170px;
+    margin-right: 375px;
+    margin-left: 375px;
+    margin-top: 30px
 }
 div.image-overlay{
  
@@ -139,12 +150,25 @@ div.image-overlay{
 
   width: 100%;
   cursor: crosshair;
+  height: 270px;
+  
 
 }
+.image-col{
 
+  height: 270px;
+}
+.col-md-3{
+
+  height: 270px;
+}
 /**section-vidéo**/
 
+#section-video{
 
+  background-color: #515f67;
+  height: 475px;
+}
 .container{
 
   position: relative;
