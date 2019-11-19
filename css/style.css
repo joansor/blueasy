@@ -2,6 +2,8 @@
   box-sizing: border-box;
 }
 
+/* twitter début */
+
 @font-face {
   font-family: "Segoe UI";
   src: url(/fonts/Segoe\UI.ttf);
@@ -111,3 +113,6 @@
 .fa-2 {
   padding-left: 980px;
 }
+
+
+/* twitter fin */
