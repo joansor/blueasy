@@ -1,10 +1,12 @@
+
+
 @import url('https://fonts.googleapis.com/css?family=Bitter&display=swap');
 
 * {
   font-family: "Segoe UI", sans-serif;
   box-sizing: border-box;
   padding: 0;
-  
+  margin: 0;
 }
 
 
@@ -119,13 +121,13 @@ a {
   height: 404px;
   position: relative;
   margin-top: 0;
-  margin:0;
+  
   
 }
 .contenu {
   width: 1170px;
   margin-left: 375px;
-  margin:0;
+  
 }
 .niv1 h3 {
   color: #fff;
@@ -703,3 +705,134 @@ left: 375px;
 }
 
 /* twitter fin */
+
+/* formulaire début */
+
+form {
+  color: #ffffff;
+  font-size: large;
+}
+/*
+input {
+  
+  line-height: 59px;
+  width: 473px;
+  opacity: 0;
+}*/
+
+.forma {
+  line-height: 59px;
+  width: 473px;
+  border: solid 2px white;
+  background: none;
+  color:#fff;
+  
+}
+
+
+
+.styled-contact {
+  border: 0;
+  line-height: 61px;
+  width: 370px;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #ffffff;
+  background-color :#4bcaff;
+  
+}
+
+p.paragraph-contact {
+  color: #ffffff;
+  line-height: 22px;
+  font-family:'Segoe UI';
+  padding-right: 30px;
+ 
+}
+
+#titrecont {
+  text-transform: uppercase;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+  font-size: 30px;
+margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top:80px;
+}
+#ligne{
+
+  width: 46px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+
+
+.info-contact {
+  padding-left: 100px;
+  padding-right: 375px;
+
+}
+
+#contact {
+  width: 1920px;
+  padding-top: 100px;
+  padding-left: 375px;
+  padding-right: 375px;
+  height: 814px;
+  background-color: rgb(81, 95, 103);
+  background-image: url(https://github.com/joansor/blueasy/blob/master/image/contact.jpg?raw=true);
+  background-position: center;
+  background-size: 100% 100%;
+  padding-top: 82px;
+  bottom: 200px;
+}
+
+
+label {
+  display: block;
+  font-family: "segoe-bold", sans-serif;
+  font-weight: normal;
+  font-size: 0.87rem;
+  text-transform: uppercase;
+  margin-bottom: 9px;
+  
+}
+
+textarea {
+  width: 1171px;
+  line-height: 106px;
+  background-color: rgba(0, 0, 0, 0);
+  border: solid 2px white;
+  resize: none;
+  color:#fff;
+}
+
+.info-contact {
+  width: 1037px;
+    height: 192px;
+    padding-left: 600px;
+    
+}
+
+.info-contact p {
+  margin: 0;
+  width: 561px;
+  height: 200px;
+  /*padding-left: 600px;*/
+
+}
+
+
+
+
+
+
+/* formulaire fin */
+
+
+
